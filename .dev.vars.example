@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local development. Never commit real secrets.
+PRINTFUL_TOKEN=replace_with_a_new_printful_private_token
+# Product ID -> matching public Printful Quick Store product URL
+PRINTFUL_PRODUCT_LINKS={"123456789":"https://YOUR-QUICK-STORE-PRODUCT-URL"}

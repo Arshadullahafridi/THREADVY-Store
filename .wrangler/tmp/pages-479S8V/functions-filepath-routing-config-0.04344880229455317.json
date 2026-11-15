@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/health",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/health.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/orders",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/orders.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/products",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/products.js:onRequestGet"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}
